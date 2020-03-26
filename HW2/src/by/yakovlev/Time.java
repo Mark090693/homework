@@ -3,7 +3,7 @@ package by.yakovlev;
 class Main {
 
     public static void main(String[] args) {
-        long s = 624298445L;
+        long s = 6242984467L;
         long sec;
         long m;
         long min, h;
