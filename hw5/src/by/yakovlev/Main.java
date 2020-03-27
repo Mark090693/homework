@@ -1,17 +1,21 @@
 package by.yakovlev;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        int r = 7;
-        if (r == 1) {
+        System.out.println("Введите число: ");
+        Scanner scanner = new Scanner(System.in);
+        int r = scanner.nextInt();
+        if ((r - 1) % 10 ==0) {
             System.out.println(r + " рубль");
-        }
-            else if(1 < r && r < 5)
+        } else if((r -2) % 10 == 0 || (r - 3) % 10 == 0 || (r - 4) % 10 == 0)
             {
-                System.out.println(r+ " рубля");
+                System.out.println(r + " рубля");
             }
-            else if (r >= 5)
+
+            else
             {
                 System.out.println(r + " рублей");
              }
