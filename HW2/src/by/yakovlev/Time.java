@@ -18,7 +18,7 @@ class Main {
         hour = h % 24;
         d = (h - hour) / 24;
         days = d % 7;
-        week = d - days;
+        week = d / 7;
 
 
 
